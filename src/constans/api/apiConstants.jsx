@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://phone-specs-api.azharimm.dev';
