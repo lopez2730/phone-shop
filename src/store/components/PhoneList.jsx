@@ -43,7 +43,7 @@ export const PhoneList = (props) => {
                   <PhoneCard
                     setItemAdded={setItemAdded}
                       key={phone.id}
-                      {...phone}
+                      data={phone}
                   />
               ))
           }

@@ -6,6 +6,7 @@ import { AboutPage } from '../pages/AboutPage'
 import { ContactPage } from '../pages/ContactPage'
 import { SearchPage } from '../pages/SearchPage'
 import ProductsPage from '../pages/ProductsPage'
+import { CartPage } from '../pages/CartPage'
 
 
 export const MenuRoutes = () => {
@@ -19,7 +20,7 @@ export const MenuRoutes = () => {
                 <Route path="About" element={<AboutPage />} />
 
                 <Route path="search" element={<SearchPage />} />
-                {/* <Route path="Cart" element={<CartPage />} /> */}
+                <Route path="Cart" element={<CartPage />} />
 
                 <Route path="/" element={<Navigate to="Products" />} />
             </Routes>
